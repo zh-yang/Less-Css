@@ -1,0 +1,17 @@
+@-webkit-keyframes move {
+	0%: {
+		left: 0;
+	}
+	100%: {
+		left: 100%;
+	}
+}
+@keyframes move {
+	0%: {
+		left: 0;
+	}
+	100%: {
+		left: 100%;
+	}
+}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInRlc3QuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0NBQ0M7RUFDQyxRQUFRO0VBQ1I7Q0FDRDtFQUNDLFdBQVc7RUFDWDtDQUNEO0FBUEQ7Q0FDQztFQUNDLFFBQVE7RUFDUjtDQUNEO0VBQ0MsV0FBVztFQUNYO0NBQ0QiLCJmaWxlIjoidGVzdC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyJAa2V5ZnJhbWVzIG1vdmUge1xyXG5cdDAlOiB7XHJcblx0XHRsZWZ0OiAwO1xyXG5cdH1cclxuXHQxMDAlOiB7XHJcblx0XHRsZWZ0OiAxMDAlO1xyXG5cdH1cclxufSJdfQ== */

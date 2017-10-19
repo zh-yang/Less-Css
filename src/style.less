@@ -1,0 +1,42 @@
+@color: #aaa;
+#head {
+	box-shadow: @color;
+}
+h2 {
+	color: @color;
+}
+
+.rounded-corners (@radius1: 5px,@radius2:10px) {
+  border-radius: @radius1 @radius2;
+}
+
+.head {
+  .rounded-corners;
+}
+#footer {
+  .rounded-corners(10px,20px);
+}
+
+#header {
+  h1 {
+    font-size: 26px;
+    font-weight: bold;
+  }
+  p { font-size: 12px;
+    a { text-decoration: none;
+      &:hover { border-width: 1px }
+    }
+  }
+}
+
+
+main {
+	&:after {
+		content: "";
+		display: block;
+		clear: both;
+	}
+	>div {
+		color: red;
+	}
+}

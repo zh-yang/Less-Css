@@ -1,0 +1,27 @@
+{
+  "name": "less-css",
+  "version": "1.0.0",
+  "description": "learn about less",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lessc": "lessc ./src/style.less ./lib/style.css",
+    "postcss": "postcss -u autoprefixer -r ./lib/*.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zh-yang/Less-Css.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zh-yang/Less-Css/issues"
+  },
+  "homepage": "https://github.com/zh-yang/Less-Css#readme",
+  "dependencies": {
+    "autoprefixer": "^7.1.5",
+    "less": "^3.0.0-alpha.3",
+    "postcss": "^6.0.13",
+    "postcss-cli": "^4.1.1"
+  }
+}
